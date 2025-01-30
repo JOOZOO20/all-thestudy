@@ -1,11 +1,11 @@
 package chap7;
 
 public class Product2 {
-    int Price;
+    int price;
     int bonusPoint;
 
     Product2(int price){
-        this.Price = price;
+        this.price = price;
         bonusPoint = (int)(price/10.0);
     }
 
